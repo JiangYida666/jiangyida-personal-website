@@ -1,0 +1,78 @@
+---
+title: "关于我"
+---
+
+# 关于蒋奕达
+
+## 教育背景
+
+**华中农业大学** | 2024.09 - 至今  
+资源与环境学院，生态学硕士  
+研究方向：农业非点源污染控制与景观生态
+
+**[你的本科学校]** | 2020.09 - 2024.06  
+[你的本科专业]，学士
+
+## 研究兴趣
+
+### 景观生态学
+- 景观格局指数计算与分析
+- 土地覆盖变化检测与监测
+- CLCD 土地利用数据分析
+- 多尺度景观格局与生态过程关系
+
+### 水文水质模型
+- SWAT 模型构建与参数率定
+- 图论网络分析方法
+- DEM 水文分析（pysheds/richdem）
+- 非点源污染模拟与预测
+
+### 遥感应用
+- 植被指数提取（NDVI/NDBI/NDWI）
+- GF 卫星影像预处理与分类
+- 无人机高分 DEM 应用
+- 多源遥感数据融合分析
+
+## 技术技能
+
+### 编程语言
+- **Python**: Anaconda/UV环境，熟练使用rasterio, geopandas, numpy等库
+- **R**: 基础统计分析，ggplot2可视化
+
+### 遥感与GIS工具
+- **桌面GIS**: ArcMap, QGIS
+- **云平台**: Google Earth Engine
+- **专业软件**: ENVI, ERDAS Imagine
+
+### 数据处理与分析
+- **空间数据**: rasterio, xarray, geopandas
+- **统计分析**: pandas, scikit-learn
+- **可视化**: matplotlib, seaborn, plotly
+
+### 水文分析工具
+- **Python库**: PySHEEDS, WhiteboxTools
+- **专业模型**: SWAT, HEC-RAS
+- **网络分析**: NetworkX, igraph
+
+## 学术成果
+
+### 发表论文
+- [待添加] 小流域景观格局对水质影响研究
+- [待添加] 基于GF影像的土地利用分类方法比较
+
+### 会议报告
+- [待添加] 全国生态学大会口头报告
+- [待添加] 青年地理学者论坛海报展示
+
+## 联系方式
+
+- 📧 **邮箱**: your.email@webmail.hzau.edu.cn
+- 🏫 **地址**: 武汉市洪山区狮子山街 1 号，华中农业大学资源与环境学院
+- 💻 **GitHub**: [@yourusername](https://github.com/yourusername)
+- 🔬 **研究方向**: 景观生态学、水文水质模型、遥感应用
+
+---
+
+<div class="text-center">
+<small>最后更新: 2024年12月</small>
+</div>

@@ -23,9 +23,18 @@ jobs:
         
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: latest
+        
+      - name: Show Quarto Version
+        run: quarto --version
         
       - name: Render Quarto Site
-        run: quarto render
+        run: |
+          echo "Rendering site..."
+          quarto render
+          echo "Render complete!"
+          ls -la docs/
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

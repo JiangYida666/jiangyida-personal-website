@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
 
 website:
   title: "蒋奕达 | 生态学研究生"
@@ -8,4 +11,6 @@ website:
     left:
       - href: index.qmd
         text: 首页
-      - about.qmd
+      - href: about.qmd
+        text: 关于
+  page-footer: "Copyright © 2024 蒋奕达"
