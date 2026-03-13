@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  # 强制使用 Node.js 24
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: read
   pages: write
@@ -20,9 +24,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         
       - name: Setup Quarto
         run: |
@@ -43,6 +53,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
   deploy:
     environment:
@@ -54,3 +66,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
