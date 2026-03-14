@@ -1,74 +1,22 @@
 ---
-title: "蒋奕达 | 生态学研究生"
+title: "蒋奕达 | Yida Jiang"
 ---
 
-# 欢迎来到我的个人网站
+## 生态学研究生 | 景观生态与农业环境
 
-<div class="row">
-<div class="col-md-8">
+您好！我是**蒋奕达**，华中农业大学资源与环境学院农业资源与环境 - 资源环境信息工程硕士研究生。我的研究聚焦于**农业非点源污染**与**景观生态学**，关注田块 - 沟渠 - 流域多尺度下的水文过程与水质响应。
 
-## 关于我
+目前主要从事：
+- 🛰️ 高分遥感影像处理与土地覆盖分类（GF 系列卫星）
+- 🌊 小流域沟渠网络构建与汇水区分析
+- 📊 景观格局与水质指标的定量关系研究
 
-您好！我是**蒋奕达**，华中农业大学资源与环境学院农业资源与环境-资源环境信息工程硕士研究生。我的研究聚焦于**农业非点源污染**与**景观生态学**，关注田块-沟渠-流域多尺度下的水文过程与水质响应。
-
-## 研究方向
-
-- 🛰️ **高分遥感影像处理**与土地覆盖分类（GF系列卫星）
-- 🌊 **小流域沟渠网络构建**与汇水区分析
-- 📊 **景观格局**与水质指标的定量关系研究
-
-## 技术专长
-
-擅长使用 **Python**（rasterio/GDAL/pandas）、**ArcGIS** 和 **SWAT 模型**进行空间数据分析。
-
-</div>
-<div class="col-md-4">
-
-```{python}
-#| echo: false
-#| warning: false
-#| message: false
-
-import matplotlib.pyplot as plt
-import numpy as np
-
-# 创建一个简单的科研主题图表
-fig, ax = plt.subplots(figsize=(6, 4))
-
-# 模拟景观格局数据
-landscape_types = ['农田', '林地', '水域', '建设用地', '草地']
-coverage = [35, 25, 15, 15, 10]
-colors = ['#8BC34A', '#4CAF50', '#2196F3', '#FF9800', '#CDDC39']
-
-ax.pie(coverage, labels=landscape_types, colors=colors, autopct='%1.1f%%', startangle=90)
-ax.set_title('典型小流域景观格局组成', fontsize=12, fontweight='bold')
-plt.tight_layout()
-plt.show()
-```
-
-</div>
-</div>
-
-## 最新动态
-
-### 当前研究项目
-
-**五龙池小流域沟渠网络与水质关联研究**
-- 构建田块-沟渠-道路拓扑网络
-- 基于 5m DEM 提取子流域汇水区
-- 结合水质监测数据进行图论分析
-
-### 技术工具栈
-
-| 领域 | 主要工具 |
-|------|----------|
-| 编程语言 | Python, R |
-| 空间分析 | ArcGIS, QGIS, Google Earth Engine |
-| 数据处理 | rasterio, xarray, geopandas |
-| 水文模型 | SWAT, PySHEEDS, WhiteboxTools |
+擅长使用 Python（rasterio/GDAL/pandas）、ArcGIS 和 SWAT 模型进行空间数据分析。
 
 ---
 
-<div class="text-center">
-*"从像素到流域，理解景观如何影响水质"*
-</div>
+## 联系方式
+
+- 📧 邮箱：[your.email@webmail.hzau.edu.cn](mailto:your.email@webmail.hzau.edu.cn)
+- 💻 GitHub：[@JiangYida666](https://github.com/JiangYida666)
+- 🏫 地址：武汉市洪山区狮子山街 1 号，华中农业大学资源与环境学院
